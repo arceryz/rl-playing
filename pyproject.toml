@@ -1,0 +1,13 @@
+[project]
+name = "rl-playing"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib",
+    "numpy",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
